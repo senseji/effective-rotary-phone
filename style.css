@@ -1,0 +1,111 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #1F2937;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 40px;
+    background-color: #1F2937;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.information-header-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.information-subtext {
+    font-size: 18px;
+    color: #777777;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    /*font should be light italic! */
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-size: 18px;
+    color: #777777;
+}
+
+.copyright-section {
+    text-align: center;
+    font-size: 14px;
+    background-color: #1F2937;
+    padding: 20px 0px;
+    color:
+        #E5e7eb;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 50px;
+    padding: 50px 100px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    /*add padding between flex containers*/
+
+}
+
+.action-button {
+    /*button has white border and is blue, text in button is white */
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: auto;
+}
